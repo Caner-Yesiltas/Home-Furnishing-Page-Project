@@ -16,10 +16,20 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 100%;
-    min-height: 100vh;
+    width: 80%;
+ height: auto;
+    background-color: #EDECEC;
+    border: 1px solid #888585;
+   
+    border-radius: 20px;
+    margin: 3rem auto; /* Otomatik merkezleme */
+  padding: 1rem; /* İçerik dolgu */
 }
 
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+}
 .logo{
     width: 4rem;
     height: 4rem;
@@ -28,8 +38,10 @@ body {
 .search-bar{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    align-items: center;
     gap: 2.5rem;
+    align-items: center;
+   
 }
 .search{
     position: relative;
@@ -41,6 +53,8 @@ body {
     height: 4vh;
     color: black;
     border: 1px solid #a19999;
+    flex: 1;
+    position: relative;
 }
 
 
@@ -59,6 +73,13 @@ body {
     height: 4vh;
   border: 1px solid #a19999;
 }
+.search-symbol{
+    width: 2rem;
+    height: 2rem;
+   position: absolute;
+   left: 820px;
+   
+}
 
 .number h1{
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -71,4 +92,19 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    font-size: 12px;
 text-align: end;
+}
+.nav-icons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.nav-part1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    border-bottom: solid 1px #a19999 ;
 }
