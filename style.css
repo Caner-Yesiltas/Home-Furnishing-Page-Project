@@ -404,3 +404,79 @@ height: 25vh;
     
 
 }
+
+.footer-up{
+
+background-color:#AC9E8B ;
+padding-top: 2rem;
+height: 44vh;
+width: 99%;
+}
+.up-part1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+.up-part1 h1{font-family: Georgia, 'Times New Roman', Times, serif;
+   font-style: italic;
+}
+
+.up-part1 h2{
+    font-family: "Bellota Text", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.8vh;
+ 
+
+
+}
+
+span{
+    color: chocolate;
+}
+
+
+label{
+    font-size: 1.1vw;
+}
+
+.up-part2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.footer-up{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2rem;
+}
+.name{display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.1vw;
+    border: none; 
+  border-bottom: 2px solid black; 
+
+   
+    
+background-color:#AC9E8B ;
+}
+
+.mail{display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.1vw;
+    border: none;
+
+    background-color:#AC9E8B ;}
+
+.number{display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.1vw;
+    border: none;
+
+    background-color:#AC9E8B ;}
