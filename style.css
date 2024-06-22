@@ -143,6 +143,8 @@ margin-top: 30px;
     gap: 1rem;
     margin-right: 100px;
     margin-left: 6rem;
+    background-color: #D9D9D9;
+    padding: 0.8rem;
 
     
 }
@@ -172,6 +174,7 @@ margin-top: 30px;
    display: flex;
    justify-content: space-evenly;
    align-items: center;
+   flex-wrap: wrap;
 
 
    
@@ -184,10 +187,12 @@ height: 38vh;
 display: flex;
 justify-content: space-around;
 align-items: center;
+position: relative;
+cursor: pointer;
 }
 
 .armchair img{
-    height: 38vh;
+    height: 30vh;
     width: 28vw;
 }
 
@@ -195,6 +200,12 @@ align-items: center;
     background-color:#FFC868 ;
     width: 28vw;
     height: 38vh;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
    
 
 }
@@ -207,7 +218,115 @@ height: 25vh;
 .sofa h1{
     font-family: "Bellota Text", sans-serif;
     font-weight: 700;
-    font-style: normal;
-    font-size: 24px;
+    font-style: italic;
+    font-size: 2.4vh;
     margin-left: 1.2rem;
+    
+    
+}
+
+.armchair h1{
+    font-family: "Bellota Text", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 2.4vh;
+  padding-top: 3rem;
+    
+    
+}
+
+.section-2{
+    background-color: #AC9E8B;
+    height: 88vh;
+
+
+
+
+}
+
+.card1{
+    width: 20vw;
+    height: 35vh;
+    background-color: #E3E0DE;
+    background-image: url(/images/living-room.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.card2{
+    width: 20vw;
+    height: 35vh;
+    background-color: #E3E0DE;
+    background-image: url(/images/kitchen.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    border-radius: 10px;
+    
+    cursor: pointer;
+}
+
+
+.card3{
+    width: 20vw;
+    height: 35vh;
+    background-color: #E3E0DE;
+    background-image: url(/images/bedroom.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    border-radius: 10px;
+    cursor: pointer;
+
+   
+}
+
+.card4{
+    width: 20vw;
+    height: 35vh;
+    background-color: #E3E0DE;
+    background-image: url(/images/accesories.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    border-radius: 10px;
+    cursor: pointer;
+    
+
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   height: 80vh;
+   width: 80vw;
+   
+   gap: 3rem;
+}
+
+.cards h1{
+    font-family: "Bellota Text", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.8vh;
+    
+}
+
+.section-2 h1{
+   padding: 20px;
+}
+
+.card1 h1{
+    margin-left: -15px;
+    margin-top: -20px;
+}
+
+.card2 h1{
+    margin-left: -8px;
 }
