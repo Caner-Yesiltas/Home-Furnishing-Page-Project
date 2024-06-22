@@ -238,6 +238,8 @@ height: 25vh;
 .section-2{
     background-color: #AC9E8B;
     height: 88vh;
+    width: 99%;
+   
 
 
 
@@ -296,6 +298,7 @@ height: 25vh;
     border-radius: 10px;
     cursor: pointer;
     
+    
 
 }
 
@@ -315,6 +318,7 @@ height: 25vh;
     font-weight: 700;
     font-style: italic;
     font-size: 1.8vh;
+   
     
 }
 
@@ -329,4 +333,72 @@ height: 25vh;
 
 .card2 h1{
     margin-left: -8px;
+}
+
+
+.section-3{
+    background-color: #EDECEC;
+    height: 90vh;
+    width: 99%;
+    padding: 20px;
+}
+
+.Cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+ padding: 30px;
+
+    
+}
+
+.Card1 img{
+    width: 20vw;
+    height: 35vh;
+
+}
+
+.Card2 img{
+    width: 20vw;
+    height: 35vh;
+  
+ 
+}
+
+.Card3 img{
+    width: 20vw;
+    height: 35vh;
+}
+
+.Card5 img{
+    width: 20vw;
+    height: 35vh;
+}
+
+.Card6 img{
+    width: 20vw;
+    height: 35vh;
+}
+
+.Card4 img{
+    width: 20vw;
+    height: 35vh;
+   
+}
+
+ .Card1, .Card2 ,.Card3 ,.Card4 ,.Card5 ,.Card6{overflow: hidden; border-radius: 10px;
+    background-color: #D9D9D9;cursor: pointer;
+}
+
+.Cards h1{
+    font-family: "Bellota Text", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.8vh;
+    text-align: center;
+    
+
 }
