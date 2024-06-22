@@ -22,8 +22,10 @@ body {
     border: 1px solid #888585;
    
     border-radius: 20px;
-    margin: 3rem auto; /* Otomatik merkezleme */
-  padding: 1rem; /* İçerik dolgu */
+    margin: 3rem auto; 
+    
+ 
+
 }
 
 .nav{
@@ -156,4 +158,56 @@ margin-top: 30px;
 }
 .categories ul li{
     cursor: pointer;
+}
+
+
+.section-1{
+   height: 47vh;
+   background-repeat: no-repeat;
+    background-image: url(/images/stock.jpg);
+    background-position: center;
+    background-size: cover; 
+   width: 99%;
+   margin-top:2rem ;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+
+
+   
+   
+}
+
+.sofa{background-color: #D5DEE5;
+width: 40vw;
+height: 38vh;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.armchair img{
+    height: 38vh;
+    width: 28vw;
+}
+
+.armchair{
+    background-color:#FFC868 ;
+    width: 28vw;
+    height: 38vh;
+   
+
+}
+
+.sofa img{
+    width: 20vw;
+height: 25vh;
+}
+
+.sofa h1{
+    font-family: "Bellota Text", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    margin-left: 1.2rem;
 }
