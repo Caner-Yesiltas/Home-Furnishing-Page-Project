@@ -29,6 +29,9 @@ body {
 
 }
 
+ul li:hover{
+    color: #FFC868;
+}
 .nav{
     display: flex;
     flex-wrap: wrap;
